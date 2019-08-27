@@ -29,6 +29,7 @@
     ]
   },
   "devDependencies": {
-    "cpp-react-scripts": "^3.0.3"
+    "cpp-react-scripts": "^3.0.3",
+    "eslint-utils":"^1.4.1"
   }
 }
