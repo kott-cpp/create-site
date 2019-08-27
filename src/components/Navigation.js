@@ -4,10 +4,10 @@ import styles from '../button.module.css';
 
 const Navigation = () => {
   return (
-    <div className={styles.button}>
-      <Link to="/">Home</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
+    <div>
+      <Link to="/" className={styles.button}>Home</Link>
+      <Link to="/about" className={styles.button}>About</Link>
+      <Link to="/contact" className={styles.button}>Contact</Link>
     </div>
   );
 };
